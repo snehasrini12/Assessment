@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(39, 93, 231)
+
+}
+
+body, html {
+    height: 100%;
+  }
+.bg {
+    
+    background-image: url("bank-law.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-group{
+    display: block;
+    margin: auto;
+    padding-left: 300px;
+    margin-bottom : 25px;
+
+}
+button{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.btn-group button {
+    background-color: rgb(54, 115, 237);
+    border: 1px solid blue; 
+    color: black; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .btn-group button:hover {
+    background-color: #5c2dd1;
+  }
